@@ -1,0 +1,7 @@
+setwd("/home/yi/Dropbox/SocialFitnessEffects")
+m<-matrix(1:6,2,3, byrow = "TRUE")
+pdf("Figures/Fig_3.pdf", height= 7, width=7)
+layout(m, widths = c(1,1,0.3))
+source("Code/Figures/FrquencyDependenceFigure.R")
+source("Code/Figures/FrquencyDependentSelectionFigure.R")
+dev.off()
