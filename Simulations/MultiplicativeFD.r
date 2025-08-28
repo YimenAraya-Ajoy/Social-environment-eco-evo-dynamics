@@ -1,4 +1,4 @@
-source("/home/yi/Dropbox/SocialFitnessEffects/Code/load.r")
+source("load.r")
 
 s4b.x <- create.x(scenID="4b")
 s4c.x <- create.x(scenID="4c", BZz=-0.04)
