@@ -1,4 +1,4 @@
-source("Code/Figures/Base.r")
+source("Base.r")
 
 sim_values=c(s2c.x$BzminZ, s2b.x$BzminZ, s2d.x$BzminZ)
 BzminZ <- generate_points(sim_values[1], sim_values[2], sim_values[3], 20) 
