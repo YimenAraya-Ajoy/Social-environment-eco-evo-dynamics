@@ -1,6 +1,6 @@
 require(reshape2)
-source("/home/yi/Dropbox/SocialFitnessEffects/Code/load.r")
-load("/home/yi/Dropbox/SocialFitnessEffects/Bias.RData")
+source("load.r")
+load("Results/Bias.RData")
 
 bias_df$Year<-as.factor(bias_df$Years)
 ests_long<- melt(bias_df, id.vars = c("Year", "Scenario"), measure.vars = c("n", "z"),
