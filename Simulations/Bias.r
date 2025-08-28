@@ -1,6 +1,6 @@
 require(reshape2)
 source("load.r")
-
+source("load_results.r")
 
 formula<-rep(c("recruits ~n + z + z2 + z_bar + (1|year) + (1|ID)", 
                "recruits ~n + z + z2 + relz + (1|year) + (1|ID) ", 
