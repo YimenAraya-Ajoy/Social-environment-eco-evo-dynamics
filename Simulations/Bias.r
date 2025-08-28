@@ -1,5 +1,6 @@
 require(reshape2)
-source("/home/yi/Dropbox/SocialFitnessEffects/Code/load.r")
+source("load.r")
+
 
 formula<-rep(c("recruits ~n + z + z2 + z_bar + (1|year) + (1|ID)", 
                "recruits ~n + z + z2 + relz + (1|year) + (1|ID) ", 
@@ -45,6 +46,6 @@ bias_res[[counter]]<-bias_ests
 }
 }
 
-save.image("/home/yi/Dropbox/SocialFitnessEffects/Results/Bias2.RData")
+save.image("Results/Bias2.RData")
 
 
