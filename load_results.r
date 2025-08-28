@@ -1,5 +1,5 @@
 
-setwd("/home/yi/Dropbox/SocialFitnessEffects")
+#setwd("/home/yi/Dropbox/SocialFitnessEffects")
 
 load("Results/AdditiveFD.RData")
 load("Results/RelativeFD1.RData")
