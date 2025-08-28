@@ -13,10 +13,10 @@ library(boot)
 require(scales)
 require(lme4)
 
-#setwd("/home/yi/Dropbox/SocialFitnessEffects")
-source("Code/Functions/Analyze.R")
-source("Code/Functions/Simulate.R")
-source("Code/Functions/FiguresFunctions.R")
+#setwd("/home/yi/Dropbox/SocialFitnessEffects/Code")
+source("Functions/Analyze.R")
+source("Functions/Simulate.R")
+source("Functions/FiguresFunctions.R")
 
 b<-create.x()
 r_max<-b$r_max
