@@ -19,7 +19,7 @@ s4d_traj<-est_trajectories(s4d)
 
 
 
-pdf("Figures/Trajectories.pdf", width= 7, height=4)
+#pdf("Figures/Trajectories.pdf", width= 7, height=4)
 
 
 par(mfcol=c(2,4))
@@ -127,8 +127,8 @@ abline(v=50, lty=2, col="red")
 
 points(rep(n.years,3), s4_eq_reg_z, col=cols, pch=8, cex=2)
 
-dev.off()
+#dev.off()
 
-file.copy(from="Figures/Trajectories.pdf", to="/home/yi/Dropbox/Apps/Overleaf/SocialFitnessEffects/Figures/Trajectories.pdf", 
-          overwrite = TRUE, recursive = FALSE, 
-          copy.mode = TRUE)
+#file.copy(from="Figures/Trajectories.pdf", to="/home/yi/Dropbox/Apps/Overleaf/SocialFitnessEffects/Figures/Trajectories.pdf", 
+ #overwrite = TRUE, recursive = FALSE, 
+  #        copy.mode = TRUE)
