@@ -1,4 +1,4 @@
-source("~/Dropbox/SocialFitnessEffects/Code/load_results.r")
+source("load_results.r")
 
 
 pdf("Figures/EcoEvoLand_A.pdf", width=8, height=5)
