@@ -1,4 +1,4 @@
-source("/home/yi/Dropbox/SocialFitnessEffects/Code/load.r")
+source("load.r")
 
 ##Simulations
 s2b.x <- create.x(scenID="2b")
