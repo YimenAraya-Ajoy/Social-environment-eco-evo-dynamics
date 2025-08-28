@@ -1,4 +1,4 @@
-source("/home/yi/Dropbox/SocialFitnessEffects/Code/load.r")
+source("load.r")
 
 function.extract<-function(sx, est_all_res){
   pars<-sx[,c("Bnr", "Bzr", "Bzr2", "Bznr", "BZr", "BZzr", "BZnr", "BZznr")]
