@@ -1,4 +1,4 @@
-source("/home/yi/Dropbox/SocialFitnessEffects/Code/load.r")
+source("load.r")
 
 s6b.x <- create.x(scenID="4b",  n.years=n.years)
 s6c.x <- create.x(scenID="4c",  n.years=n.years, BZzn=-0.0075)
